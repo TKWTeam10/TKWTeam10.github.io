@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./nhom10.css">
+    <title>Create New Event</title>
+</head>
+<body>
+    <nav class="head">
+        <div class="logo">
+            <img src="./img/logo.png" width="250%" alt="" />
+        </div>
+    </nav>
+    <nav class="banner">
+        <div class="inf">
+            <div>
+                <h2>Create New Event</h2>
+            </div>
+            <div class="content">
+                <form>
+                    <label for="event-name">Event Name:</label><br>
+                    <input type="text" id="event-name" name="event-name"><br><br>
+                    
+                    <label for="type">Type:</label><br>
+                    <select id="type" name="type">
+                        <option value="public">Public</option>
+                        <option value="private">Private</option>
+                    </select><br><br>
+                    
+                    <label for="category">Category:</label><br>
+                    <input type="text" id="category" name="category"><br><br>
+                    
+                    <label for="date">Date:</label><br>
+                    <input type="date" id="date" name="date"><br><br>
+                    
+                    <label for="format">Format:</label><br>
+                    <input type="text" id="format" name="format"><br><br>
+                    
+                    <label for="description">Description:</label><br>
+                    <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="img">
+            <img src="./img/img0.png" width="90%" alt="">
+        </div>
+    </nav>
+</body>
+</html>
